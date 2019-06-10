@@ -1,1 +1,124 @@
-Hello
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+  <title>CS31 Layout</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+    }
+
+    .header {
+      padding: 60px;
+      background-color: green;
+      color: white;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      background-color: #333;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      width: 100px;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .side {
+      flex: 30%;
+      padding: 20px;
+      background-color: #f1f1f1;
+    }
+
+    .main {
+      flex: 70%;
+      padding: 20px;
+    }
+
+    .fakeimg {
+      width: 100%;
+      background-color: #aaa;
+      padding: 20px;
+    }
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background-color: #ddd;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h1>My Website</h1>
+    <p>With a <b>flexible</b> layout.</p>
+  </div>
+
+  <div class="navbar">
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+    <a href="#">Link</a>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Sit amet</h2>
+      <h5>Velit velit exercitation dolor commodo.</h5>
+      <div class="fakeimg" style="height:200px">Image</div>
+      <p>Tempor sit exercitation ex eu tempor dolore do commodo incididunt esse do aliqua sit.</p>
+
+      <h3>More text</h3>
+      <p>Quis eu in sint in labore deserunt in pariatur culpa.</p>
+      <div class="fakeimg" style="height: 60px">Image</div><br>
+      <div class="fakeimg" style="height: 60px">Image</div><br>
+      <div class="fakeimg" style="height: 60px">Image</div>
+    </div>
+    <div class="main">
+      <h2>Title Heading</h2>
+      <h5>nisi voluptate qui excepteur dolore amet.</h5>
+      <div class="fakeimg" style="height:200px">Image</div>
+      <p>Ea anim commodo aliquip fugiat consequat eu deserunt.</p>
+      <br>
+
+      <h2>Title Heading</h2>
+      <h5>Laboris esse non eiusmod eiusmod.</h5>
+      <div class="fakeimg" style="height:200px">Image</div>
+      <p>Aliqua Lorem et in sint ut.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <h2>Footer</h2>
+  </div>
+
+</body>
+
+</html>
