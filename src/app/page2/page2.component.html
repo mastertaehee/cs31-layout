@@ -1,3 +1,121 @@
-<p>
-  page2 works!
-</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contacts</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .site-header {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px;
+    }
+
+    .site-nav {
+      display: flex;
+      align-items: center;
+    }
+
+    .site-nav a {
+      padding: 10px;
+    }
+
+    .site-nav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .actions {
+      display: flex;
+      align-items: center;
+      margin-left: auto;
+      margin-right: 10px;
+    }
+
+    .row {
+      display: flex;
+    }
+
+    .side {
+      flex: 30%;
+      padding: 20px;
+    }
+
+    .main {
+      flex: 70%;
+      padding: 20px;
+    }
+
+    .icon {
+      width: 64px;
+      height: 64px;
+      background-color: #ddd;
+    }
+
+    .search-box {
+      flex: 1;
+      max-width: 500px;
+      height: 64px;
+      background-color: #ddd;
+    }
+
+    .fakeimg {
+      width: 100%;
+      background-color: #ddd;
+    }
+  </style>
+
+</head>
+
+<body>
+    
+
+
+    <div class="site-header">
+
+    <mat-icon aria-hidden="false" aria-label="Example home icon">dehaze</mat-icon>
+    <a class="logo">Logo</a>
+    <div class="site-nav">
+      <a>Link1</a>
+      <a>Link2</a>
+    </div>
+
+    <div class="search-box"></div>
+
+    <div class="actions">
+      <div class="icon"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="side">
+      <h2>Ipsum nulla pariatur </h2>
+      <h5>Quis culpa et voluptate commodo commodo adipisicing quis incididunt incididunt.</h5>
+      <div class="fakeimg" style="height: 60px;"></div><br>
+      <div class="fakeimg" style="height: 60px;"></div><br>
+      <div class="fakeimg" style="height: 60px;"></div>
+    </div>
+    <div class="main">
+      <h2>Title Heading 1 </h2>
+      <h5>Quis culpa et voluptate commodo commodo adipisicing quis incididunt incididunt.</h5>
+      <div class="fakeimg" style="height: 60px;"></div><br>
+      <div class="fakeimg" style="height: 60px;"></div><br>
+      <div class="fakeimg" style="height: 60px;"></div>
+    </div>
+  </div>
+
+</body>
+
+</html>
